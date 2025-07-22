@@ -1,0 +1,52 @@
+dbody<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Light</title>
+    <script src="/minitask/number1.js" defer></script>
+    <style>
+      body {
+        background-color: rgba(0, 0, 255, 0.765);
+      }
+      .Traffic-Light {
+        background-color: black;
+        width: 10rem;
+        height: 23rem;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 30px;
+      }
+      .red {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        border-radius: 50%;
+        margin: auto;
+      }
+      .yellow { 
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .green {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Traffic-Light">
+      <div class="red" id="red"></div>
+      <div class="yellow" id="yellow"></div>
+      <div class="green" id="green"></div>
+    </div>
+  </body>
+</html>
